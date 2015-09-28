@@ -1,0 +1,13 @@
+import javax.swing.JFrame;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+
+
+public class GUI extends JFrame {
+	private JLabel item1;
+	public GUI (){
+		super("Significant Figures Calculator");
+		setLayout(new FlowLayout());
+		item1 = new JLabel("Hello this is a test.");
+	}
+}
